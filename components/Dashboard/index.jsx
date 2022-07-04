@@ -20,7 +20,7 @@ const Dashboard = () => {
 			)}
 			<div className="p-5 bg-slate-800 rounded-lg px-10 shadow-[0_5px_3px_0.2px_rgba(0,0,0,0.2)] lg:fixed top-[45vh] left-10 xl:left-[10rem] transition-all">
 				<div className="flex flex-col items-center">
-					<h1 className="text-xl font-semibold">{user ? user.name : ""}'s Notes</h1>
+					<h1 className="text-xl font-semibold">{user ? user.name : ""}&apos;s Notes</h1>
 					<h1>No. of Post: {data ? data.count : ""}</h1>
 					<button className="mt-8 btn rounded-full gap-4" onClick={() => setIsPosting(true)}>
 						<BsPencilFill /> Post

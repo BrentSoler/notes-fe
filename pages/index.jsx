@@ -31,7 +31,7 @@ export default function Home() {
 	return (
 		<div className="flex justify-center flex-col items-center gap-4 pb-5 w-full" id="dashboard">
 			<Head>
-				{user && <title>{user ? user.name : ""}'s Dashboard</title>}
+				{user && <title>{user ? user.name : ""}&apos;s Dashboard</title>}
 				{!user && <title>Notes App</title>}
 			</Head>
 			{isLoading && <div className="lds-dual-ring"></div>}
